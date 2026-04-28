@@ -3,9 +3,9 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Heart } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import Header from "@/components/Header.jsx";
-import Footer from "@/components/Footer.jsx";
+import { Button } from "../components/ui/button";
+import Header from "../components/Header.tsx";
+import Footer from "../components/Footer.tsx";
 
 function HomePage() {
   return (

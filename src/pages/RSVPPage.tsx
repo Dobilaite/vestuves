@@ -2,9 +2,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { Heart } from 'lucide-react';
-import Header from '../components/Header.jsx';
-import Footer from '../components/Footer.jsx';
-import RSVPForm from '../components/RSVPForm.jsx';
+import Header from '../components/Header.tsx';
+import Footer from '../components/Footer.tsx';
+import RSVPForm from '../components/RSVPForm.tsx';
 function RSVPPage() {
   return <>
       <Helmet>
