@@ -2,8 +2,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { MapPin, Clock, Navigation } from 'lucide-react';
-import Header from '../components/Header.tsx';
-import Footer from '../components/Footer.tsx';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 function LocationPage() {
   return <>
       <Helmet>

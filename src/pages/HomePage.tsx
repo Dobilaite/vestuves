@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Heart } from "lucide-react";
 import { Button } from "../components/ui/button";
-import Header from "../components/Header.tsx";
-import Footer from "../components/Footer.tsx";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function HomePage() {
   return (

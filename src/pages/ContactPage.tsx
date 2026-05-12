@@ -1,9 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import { Phone, MessageCircle, Instagram } from 'lucide-react';
-import Header from '../components/Header.tsx';
-import Footer from '../components/Footer.tsx';
+import { Phone, MessageCircle } from "lucide-react";
+import { Instagram } from "lucide-react/dist/esm/icons/instagram";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function ContactPage() {
   const contacts = [
